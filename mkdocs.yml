@@ -1,0 +1,48 @@
+site_name: fastcat-manuals
+site_url: http://fastcat.co
+site_description: fastcatsearch manuals
+site_author: Seong-Min Ahn
+
+# repo_url:
+
+# copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
+
+theme:
+    name: mkdocs
+
+nav:
+    - common: 
+        - 검색엔진 개발환경 구축 가이드: 'common/fastcatsearch-dev-guide/ko/README.md'
+        - 자바 성능튜닝 가이드: 'common/java-perf-guide/ko/README.md'
+
+    - fastcatsearch: 
+        - SNS를 통한 검색엔진 Alert 전달: 'fastcatsearch/alertsetting-manual/ko/README.md'
+        - JSP 개발가이드: 'fastcatsearch/dev-jsp/ko/README.md'
+        - PHP 개발가이드: 'fastcatsearch/dev-php/ko/README.md'
+        - 검색기능 가이드북: 'fastcatsearch/function-plan-guide/README.md'
+        - 검색엔진 설치매뉴얼: 'fastcatsearch/install-manual/ko/README.md'
+        - 검색엔진 통합메뉴얼: 'fastcatsearch/main-manual/ko/README.md'
+        - 운영자 메뉴얼: 'fastcatsearch/op-manual/ko/README.md'
+        - 검색엔진 쿼리API: 'fastcatsearch/query-api/ko/README.md'
+        - 검색엔진 서비스API: 'fastcatsearch/service-api/ko/README.md'
+        - 소스리더 매뉴얼: 'fastcatsearch/sourcereader-manual/ko/README.md'
+        - 검색엔진 구동 및 정지: 'fastcatsearch/start-shutdown/ko/README.md'
+        - 검색교육 커리큘럼: 'fastcatsearch/training/ko/README.md'
+
+    - openstack:
+        - 오픈스택 운영메뉴얼:          'openstack/operation-manual/README.md'
+        - 오픈스택 블록스토리지 노드:     'openstack/ubuntu14-install-manual/ko/BlockStorage.md'
+        - 오픈스택 컴퓨트 노드:         'openstack/ubuntu14-install-manual/ko/Compute.md'
+        - 오픈스택 컨트롤러 노드:        'openstack/ubuntu14-install-manual/ko/Controller.md'
+        - 오픈스택 네트워크 노드:        'openstack/ubuntu14-install-manual/ko/Network.md'
+        - 오픈스택 오브젝트 스토리지 노드: 'openstack/ubuntu14-install-manual/ko/ObjectStorage.md'
+
+    - search-analytics:
+        - 로그분석기 API 매뉴얼:    'search-analytics/analytics-api/ko/README.md'
+        - 로그분석기 통합메뉴얼: 'search-analytics/analytics-manual/ko/README.md'
+        - 로그분석기 구동 및 정지: 'search-analytics/start-shutdown/ko/README.md'
+
+plugins:
+    - search:
+    #- mkpdfs:
+        #- company: rosesystems
